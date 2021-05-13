@@ -12112,3 +12112,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* .site-direction {
+  direction: rtl !important;
+} */
+
+.lang-dir {
+  direction: rtl !important;
+} 
+
+.right-align {
+  direction: rtl;
+  text-align: right;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+.left-dir {
+  direction: ltr !important;
+}
