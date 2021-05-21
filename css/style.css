@@ -12134,3 +12134,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .icon-car::before {
   padding-bottom: 9px;
 }
+
+.nav-btn {
+  font-size: 25px;
+}
