@@ -12138,3 +12138,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .nav-btn {
   font-size: 25px;
 }
+
+.white-space {
+  margin-left: 10px;
+}
+
+.new-line {
+  margin-bottom: 1rem;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.white-text:hover {
+  color: #c49a6a;
+}
+
+.space-from-top {
+  margin-top: 2rem;
+}
