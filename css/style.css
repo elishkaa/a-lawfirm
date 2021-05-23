@@ -169,6 +169,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^=
 @media (min-width: 1200px) {
   .subtitle {
     font-size: 33px;
+    font-weight: bold;
   }
   .subtitle:after {
     height: 10px;
@@ -2765,8 +2766,8 @@ hr {
 
 @media (min-width: 1200px) {
   .button {
-    padding: 16px 35px;
-    font-size: 13px;
+    padding: 15px 26px;
+    font-size: 14px;
     line-height: 1.25;
   }
 }
@@ -6062,7 +6063,7 @@ html.tablet .ui-to-top {
   position: relative;
   display: inline-block;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .075em;
@@ -12157,4 +12158,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .space-from-top {
   margin-top: 2rem;
+}
+
+.sub-header {
+  font-size: 19px; 
+  font-weight: bold;
 }
