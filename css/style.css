@@ -164,6 +164,9 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^=
   background: linear-gradient(to right, #c49a6a, #c49a6a);
   -webkit-background-clip: text;
   color: transparent;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 33px;
+  font-weight: bold;
 }
 
 @media (min-width: 1200px) {
