@@ -2446,7 +2446,7 @@ img {
 
 .icon-circle.icon-md {
   width: 70px;
-  height: 70px;
+  height: 71px;
 }
 
 .icon-sm {
@@ -10983,7 +10983,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .typed-text {
-  color: rgba(196, 154, 106, 0.55);
+  color: rgba(196, 154, 106, 1);
   font-family: "Abril Fatface", cursive;
   font-weight: 400;
 }
@@ -12163,4 +12163,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .sub-header {
   font-size: 19px; 
   font-weight: bold;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.whatsapp-color {
+  background-color: #00E676 !important;
+}
+
+.icon-coin-dollar::before {
+  padding-left: 3px;
 }
