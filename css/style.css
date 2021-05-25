@@ -5734,8 +5734,8 @@ html:not(.lt-ie10) .not-animated {
 */
 .ui-to-top {
   position: fixed;
-  right: 15px;
-  bottom: 15px;
+  left: 40px;
+  bottom: 40px;
   z-index: 100;
   width: 50px;
   height: 50px;
@@ -12178,4 +12178,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .icon-coin-dollar::before {
   padding-left: 3px;
+}
+
+.float-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-float {
+  margin-top: 16px;
 }
