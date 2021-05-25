@@ -2754,7 +2754,7 @@ hr {
   line-height: 1.25;
   border: 2px solid;
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   border-radius: 35px;
@@ -3009,7 +3009,6 @@ hr {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  padding-left: 40px;
 }
 
 .button.button-icon .icon {
@@ -6067,7 +6066,7 @@ html.tablet .ui-to-top {
   display: inline-block;
   color: #ffffff;
   font-size: 17px;
-  font-weight: 900;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .075em;
   line-height: 1.2;
@@ -10987,8 +10986,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .typed-text {
   color: rgba(196, 154, 106, 1);
-  font-family: "Abril Fatface", cursive;
-  font-weight: 400;
 }
 
 .typed-cursor {
