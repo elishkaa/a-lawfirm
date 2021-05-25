@@ -2097,6 +2097,10 @@ html .custom-button-group .button-tel, html .custom-button-group .button-tel:foc
   color: #151515;
 }
 
+html .custom-button-group .header-phone-color, html .custom-button-group .header-phone-color:focus, html .custom-button-group .header-phone-color:active {
+  color: #ffffff;
+}
+
 html .custom-button-group .button-tel:hover {
   color: #c49a6a;
 }
@@ -12194,4 +12198,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .whatsapp-float {
   margin-top: 16px;
+}
+
+.header-phone-color {
+  font-size: 22px;
+}
+
+.header-phone-color > span {
+  font-size: 22px;
 }
