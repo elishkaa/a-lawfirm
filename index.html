@@ -293,8 +293,12 @@
                   href="https://www.waze.com/he/live-map/directions/israel/north-district/tiberias/eilat-st-1?place=ChIJwSEm0kg-HBUR_bijHXJCgoE"><i
                     class="fab fa-waze nav-btn"></i></a>
                 <span class="white-space"></span>
+                <a class="button button-default-outline button-nina lang-dir" href="tel:050-7516112"><i
+                    class="icon mdi mdi-phone-incoming nav-btn"></i></a>
+                <span class="white-space"></span>
                 <a class="button button-default-outline button-nina lang-dir"
                   href="https://goo.gl/maps/9xki4W2oH2QcWspM7"><i class="icon mdi mdi-map-marker nav-btn"></i></a>
+
               </div>
             </div>
           </div>
@@ -328,7 +332,8 @@
               <div class="form-wrap form-wrap-icon input--nao">
                 <input class="form-input input__field--nao" id="contact-email" type="email" name="email"
                   data-constraints="@Email @Required">
-                <label class="form-label input__label--nao mdi mdi-email-outline" for="contact-email">אימייל</label>
+                <label class="form-label input__label--nao mdi mdi-email-outline" for="contact-email">דואר
+                  אלקטרוני</label>
                 <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                   preserveaspectratio="none">
                   <path
@@ -371,12 +376,6 @@
         </form>
       </div>
     </section>
-    <!-- <section class="google-map-container" data-center="6036 Richmond hwy., Alexandria, VA, 2230" data-styles="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.business&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b4d4e1&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]">
-        <div class="google-map"></div>
-        <ul class="google-map-markers">
-          <li data-location="6036 Richmond hwy., Alexandria, VA, 2230" data-description="6036 Richmond hwy., Alexandria, VA, 2230" data-icon="images//gmap_marker.png" data-icon-active="images//gmap_marker_active.png"></li>
-        </ul>
-      </section> -->
     <!-- Page Footer-->
     <footer class="section footer-classic context-dark bg-image" style="background-image: url(images//pattern-bg.jpg)">
       <div class="container">
@@ -438,7 +437,7 @@
         <div class="modal-dialog__inner">
           <button class="close" type="button" data-dismiss="modal"></button>
           <div class="modal-dialog__content">
-            <h4>Make an Appointment</h4>
+            <h4 class="center">קבע פגישה</h4>
             <!-- RD Mailform-->
             <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
               method="post" action="bat/rd-mailform.php">
@@ -447,8 +446,8 @@
                   <div class="form-wrap form-wrap-icon input--nao">
                     <input class="form-input input__field--nao" id="contact-name-modal" type="text" name="name"
                       data-constraints="@Required">
-                    <label class="form-label mdi mdi-account-outline input__label--nao" for="contact-name-modal">Your
-                      Name</label>
+                    <label class="form-label mdi mdi-account-outline input__label--nao" for="contact-name-modal">השם
+                      שלך</label>
                     <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
                       <path
@@ -461,8 +460,8 @@
                   <div class="form-wrap form-wrap-icon input--nao">
                     <input class="form-input input__field--nao" id="contact-email-modal" type="email" name="email"
                       data-constraints="@Email @Required">
-                    <label class="form-label input__label--nao mdi mdi-email-outline"
-                      for="contact-email-modal">E-mail</label>
+                    <label class="form-label input__label--nao mdi mdi-email-outline" for="contact-email-modal">דואר
+                      אלקטרוני</label>
                     <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
                       <path
@@ -476,7 +475,7 @@
                     <input class="form-input input__field--nao" id="contact-phone-modal" type="text" name="phone"
                       data-constraints="@Numeric">
                     <label class="form-label input__label--nao mdi mdi-tablet-android"
-                      for="contact-phone-modal">Phone</label>
+                      for="contact-phone-modal">טלפון</label>
                     <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
                       <path
@@ -490,7 +489,7 @@
                     <textarea class="form-input input__field--nao" id="contact-message-modal" name="message"
                       data-constraints="@Required"></textarea>
                     <label class="form-label input__label--nao mdi mdi-message-text-outline"
-                      for="contact-message-modal">Your Message</label>
+                      for="contact-message-modal">ההודעה שלך</label>
                     <svg class="graphic graphic--nao" width="300%" height="50%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
                       <path
@@ -500,7 +499,7 @@
                   </div>
                 </div>
                 <div class="col-12 text-center form-button">
-                  <button class="button button-primary button-nina" type="submit">Send Message</button>
+                  <button class="button button-primary button-nina" type="submit">שלח הודעה</button>
                 </div>
               </div>
             </form>
