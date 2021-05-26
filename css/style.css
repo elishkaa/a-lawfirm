@@ -2349,7 +2349,7 @@ p + .list-marked-2 {
 }
 
 .contact-list dt {
-  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font: 900 18px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.075em;
 }
@@ -3287,7 +3287,7 @@ textarea.form-input {
 .form-label {
   position: absolute;
   top: 30px;
-  left: 0;
+  /* left: 0; */
   right: 0;
   padding-left: 19px;
   padding-right: 19px;
@@ -6436,7 +6436,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-nav-item {
-  text-align: left;
+  text-align: right;
   text-transform: uppercase;
 }
 
@@ -12210,4 +12210,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .center {
   text-align: center;
+}
+
+.waze-fab-fix {
+  padding: 8px;
 }
