@@ -4769,7 +4769,7 @@ h6 + .group-sm {
 }
 
 .row-50 > * {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 992px) {
@@ -12209,9 +12209,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .waze-fab-fix {
   padding: 8px;
+}
+
+.center-browser {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
 }
