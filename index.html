@@ -327,7 +327,7 @@
           לפרטים נוספים</p>
         <!-- RD Mailform-->
         <form class="rd-form rd-mailform right-align" data-form-output="form-output-global" data-form-type="contact"
-          method="post" action="bat/rd-mailform.php">
+          method="post">
           <div class="row row-20">
             <div class="col-md-4">
               <div class="form-wrap form-wrap-icon input--nao">
@@ -384,7 +384,7 @@
               </div>
             </div>
             <div class="col-12 text-center form-button">
-              <button class="button button-primary button-nina" type="submit">שלח הודעה</button>
+              <button class="button button-primary button-nina" type="submit" id="sendMessageButton">שלח הודעה</button>
             </div>
           </div>
         </form>
@@ -435,7 +435,7 @@
       <div class="row no-gutters social-container">
         <div class="col"><a style="padding-top: 30px;" class="social-inner"
             href="https://www.waze.com/he/live-map/directions/israel/north-district/tiberias/eilat-st-1?place=ChIJwSEm0kg-HBUR_bijHXJCgoE"><span
-              class="fab fa-waze"></span><span class="waze-fab-fix">Waze</span></a></div>
+              class="fab fa-waze" style="font-size: 30px;"></span><span class="waze-fab-fix">Waze</span></a></div>
         <div class="col"><a class="social-inner"
             href="https://api.whatsapp.com/send?phone=972507660196&text=שלום, הגעתי מאתר אמויאל, אביחן ושות' אשמח לשיחה ראשונית לקבלת ייעוץ"><span
               class="icon mdi mdi-whatsapp"></span><span>Whatsapp</span></a></div>
@@ -452,7 +452,7 @@
             <h4 class="center">קבע פגישה</h4>
             <!-- RD Mailform-->
             <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
-              method="post" action="bat/rd-mailform.php">
+              method="post">
               <div class="row row-20">
                 <div class="col-12">
                   <div class="form-wrap form-wrap-icon input--nao">
@@ -511,7 +511,7 @@
                   </div>
                 </div>
                 <div class="col-12 text-center form-button">
-                  <button class="button button-primary button-nina" type="submit">שלח הודעה</button>
+                  <button class="button button-primary button-nina" id="sendMessageButton-modal" type="submit">שלח הודעה</button>
                 </div>
               </div>
             </form>
