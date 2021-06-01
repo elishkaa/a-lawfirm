@@ -12223,3 +12223,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
     width: fill-available;
 }
+
+.phone-header {
+  font-size: 45px !important; 
+  padding-top: 7px;
+}
