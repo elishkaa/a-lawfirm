@@ -1364,6 +1364,7 @@
 									async: false
 								})
 									.done(function (responceCode) {
+										debugger;
 										if (responceCode !== 'CPT000') {
 											if (output.hasClass("snackbars")) {
 												output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
