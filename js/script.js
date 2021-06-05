@@ -1313,6 +1313,7 @@
 
 		// RD Mailform
 		if (plugins.rdMailForm.length) {
+			
 			var i, j, k,
 				msg = {
 					'MF000': 'Successfully sent!',
@@ -1359,12 +1360,12 @@
 
 								$.ajax({
 									method: "POST",
-									url: "bat/reCaptcha.php",
+									url: "https://script.google.com/macros/s/AKfycbxjMfCo-mHRIMweLoJthWGDfLiIbn09GyNeOrDx1wA0LVbWiGry/exec",
 									data: {'g-recaptcha-response': captchaToken},
 									async: false
 								})
 									.done(function (responceCode) {
-										debugger;
+										
 										if (responceCode !== 'CPT000') {
 											if (output.hasClass("snackbars")) {
 												output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
@@ -1426,8 +1427,8 @@
 						if (formHasCaptcha) {
 							grecaptcha.reset();
 						}
-
-						result = result.length === 5 ? result : 'MF255';
+						
+						result = result.result === "success" ? 'MF000' : 'MF255';
 						output.text(msg[result]);
 
 						if (result === "MF000") {

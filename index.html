@@ -326,14 +326,14 @@
         <p>הרשו לנו לעזור לכם לבחור את הפתרון הטוב ביותר עבורכם <br class="d-md-inline-block">!צרו איתנו קשר
           לפרטים נוספים</p>
         <!-- RD Mailform-->
-        <form class="rd-form rd-mailform right-align" data-form-type="contact"
-          method="post">
+        <form class="rd-form rd-mailform right-align" data-form-output="form-output-global" data-form-type="contact"
+          method="post" action="https://script.google.com/macros/s/AKfycbxjMfCo-mHRIMweLoJthWGDfLiIbn09GyNeOrDx1wA0LVbWiGry/exec">
           <div class="row row-20">
             <div class="col-md-4">
               <div class="form-wrap form-wrap-icon input--nao">
-                <input class="form-input input__field--nao" id="contact-name" type="text" name="name"
+                <input class="form-input input__field--nao" id="name" type="text" name="name"
                   data-constraints="@Required">
-                <label class="form-label mdi mdi-account-outline input__label--nao" for="contact-name">השם שלך</label>
+                <label class="form-label mdi mdi-account-outline input__label--nao" for="name">השם שלך</label>
                 <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                   preserveaspectratio="none">
                   <path
@@ -344,9 +344,9 @@
             </div>
             <div class="col-md-4">
               <div class="form-wrap form-wrap-icon input--nao">
-                <input class="form-input input__field--nao" id="contact-email" type="email" name="email"
+                <input class="form-input input__field--nao" id="email" type="email" name="email"
                   data-constraints="@Email @Required">
-                <label class="form-label input__label--nao mdi mdi-email-outline" for="contact-email">דואר
+                <label class="form-label input__label--nao mdi mdi-email-outline" for="email">דואר
                   אלקטרוני</label>
                 <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                   preserveaspectratio="none">
@@ -358,9 +358,9 @@
             </div>
             <div class="col-md-4">
               <div class="form-wrap form-wrap-icon input--nao">
-                <input class="form-input input__field--nao" id="contact-phone" type="text" name="phone"
+                <input class="form-input input__field--nao" id="phone" type="text" name="phone"
                   data-constraints="@Numeric">
-                <label class="form-label input__label--nao mdi mdi-tablet-android" for="contact-phone">טלפון</label>
+                <label class="form-label input__label--nao mdi mdi-tablet-android" for="phone">טלפון</label>
                 <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                   preserveaspectratio="none">
                   <path
@@ -371,9 +371,9 @@
             </div>
             <div class="col-12">
               <div class="form-wrap form-wrap-icon input--nao">
-                <textarea class="form-input input__field--nao" id="contact-message" name="message"
-                  data-constraints="@Required"></textarea>
-                <label class="form-label input__label--nao mdi mdi-message-text-outline" for="contact-message">ההודעה
+                <textarea class="form-input input__field--nao" id="message" name="message"
+                  data-constraints="@Required" maxlength="200"></textarea>
+                <label class="form-label input__label--nao mdi mdi-message-text-outline" for="message">ההודעה
                   שלך</label>
                 <svg class="graphic graphic--nao" width="300%" height="50%" viewbox="0 0 1200 60"
                   preserveaspectratio="none">
@@ -452,13 +452,13 @@
             <h4 class="center">קבע פגישה</h4>
             <!-- RD Mailform-->
             <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
-              method="post">
+              method="post" action="https://script.google.com/macros/s/AKfycbxjMfCo-mHRIMweLoJthWGDfLiIbn09GyNeOrDx1wA0LVbWiGry/exec">
               <div class="row row-20">
                 <div class="col-12">
                   <div class="form-wrap form-wrap-icon input--nao">
-                    <input class="form-input input__field--nao" id="contact-name-modal" type="text" name="name"
+                    <input class="form-input input__field--nao" id="name-modal" type="text" name="name"
                       data-constraints="@Required">
-                    <label class="form-label mdi mdi-account-outline input__label--nao" for="contact-name-modal">השם
+                    <label class="form-label mdi mdi-account-outline input__label--nao" for="name-modal">השם
                       שלך</label>
                     <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
@@ -470,9 +470,9 @@
                 </div>
                 <div class="col-12">
                   <div class="form-wrap form-wrap-icon input--nao">
-                    <input class="form-input input__field--nao" id="contact-email-modal" type="email" name="email"
+                    <input class="form-input input__field--nao" id="email" type="email-modal" name="email"
                       data-constraints="@Email @Required">
-                    <label class="form-label input__label--nao mdi mdi-email-outline" for="contact-email-modal">דואר
+                    <label class="form-label input__label--nao mdi mdi-email-outline" for="email-modal">דואר
                       אלקטרוני</label>
                     <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
@@ -484,10 +484,10 @@
                 </div>
                 <div class="col-12">
                   <div class="form-wrap form-wrap-icon input--nao">
-                    <input class="form-input input__field--nao" id="contact-phone-modal" type="text" name="phone"
+                    <input class="form-input input__field--nao" id="phone-modal" type="text" name="phone"
                       data-constraints="@Numeric">
                     <label class="form-label input__label--nao mdi mdi-tablet-android"
-                      for="contact-phone-modal">טלפון</label>
+                      for="phone-modal">טלפון</label>
                     <svg class="graphic graphic--nao" width="300%" height="100%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
                       <path
@@ -498,10 +498,10 @@
                 </div>
                 <div class="col-12">
                   <div class="form-wrap form-wrap-icon input--nao">
-                    <textarea class="form-input input__field--nao" id="contact-message-modal" name="message"
-                      data-constraints="@Required"></textarea>
+                    <textarea class="form-input input__field--nao" id="message-modal" name="message"
+                      data-constraints="@Required" maxlength="200"></textarea>
                     <label class="form-label input__label--nao mdi mdi-message-text-outline"
-                      for="contact-message-modal">ההודעה שלך</label>
+                      for="message-modal">ההודעה שלך</label>
                     <svg class="graphic graphic--nao" width="300%" height="50%" viewbox="0 0 1200 60"
                       preserveaspectratio="none">
                       <path
@@ -527,9 +527,6 @@
   <!-- Javascript-->
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
-  <!-- Contact form JS-->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
   <!-- coded by gel-->
 </body>
 
