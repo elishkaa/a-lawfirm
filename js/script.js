@@ -1313,16 +1313,15 @@
 
 		// RD Mailform
 		if (plugins.rdMailForm.length) {
-			
 			var i, j, k,
 				msg = {
-					'MF000': 'Successfully sent!',
+					'MF000': '!נשלח בהצלחה',
 					'MF001': 'Recipients are not set!',
 					'MF002': 'Form will not work locally!',
 					'MF003': 'Please, define email field in your form!',
 					'MF004': 'Please, define type of your form!',
 					'MF254': 'Something went wrong with PHPMailer!',
-					'MF255': 'Aw, snap! Something went wrong.'
+					'MF255': 'אופס! משהו הלך לא כפי שתכננו.'
 				};
 
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
@@ -1391,7 +1390,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>שולח</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -1427,7 +1426,7 @@
 						if (formHasCaptcha) {
 							grecaptcha.reset();
 						}
-						
+
 						result = result.result === "success" ? 'MF000' : 'MF255';
 						output.text(msg[result]);
 
