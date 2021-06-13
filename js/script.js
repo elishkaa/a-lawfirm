@@ -1868,10 +1868,10 @@
 		if (!isNoviBuilder && plugins.typedjs.length) {
 			var typed = new Typed(".typed-text", {
 				stringsElement: ".typed-strings",
-				typeSpeed: 80,
+				typeSpeed: 100,
 				loop: !0,
 				backDelay: 1500,
-				backSpeed: 80
+				backSpeed: 100
 			});
 		}
 
